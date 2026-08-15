@@ -1,36 +1,99 @@
 # CodeAlpha Calculator
 
-A simple and user-friendly Basic Calculator developed in C as part of the CodeAlpha C Programming Internship.
+# 🧮 Basic Calculator Using C
 
-## 📌 Task
+A console-based **Basic Calculator Application** developed in C as part of my **CodeAlpha C Programming Internship**.
 
-**Task 1 – Basic Calculator Program**
+This project performs basic arithmetic operations using a **switch-case statement** and demonstrates important concepts of C programming such as functions, loops, conditional statements, and input validation.
 
-The program performs basic arithmetic operations using a switch-case statement.
+---
 
-## ✨ Features
+## 📌 Project Overview
+
+The Basic Calculator is a simple console application that allows users to perform common arithmetic operations.
+
+The application supports:
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
-- Switch-case based operation selection
-- Division by zero handling
-- Multiple calculations
-- Exit option
-- Separate functions for arithmetic operations
-- User-friendly console interface
 
-## 🛠️ Technologies Used
+Users can select an operation through a menu-driven interface and perform multiple calculations without restarting the program.
 
-- C Programming Language
-- Standard Input/Output (`stdio.h`)
-- Switch Case
-- Functions
-- Loops
-- Conditional Statements
+---
 
-## 📂 Project Structure
+# ✨ Features
+
+### 🧮 Arithmetic Operations
+
+- Addition of two numbers
+- Subtraction of two numbers
+- Multiplication of two numbers
+- Division of two numbers
+
+### 🔀 Operation Selection
+
+- Uses **switch-case** for selecting arithmetic operations
+- Simple and user-friendly menu
+
+### 🔁 Multiple Calculations
+
+- Allows users to perform multiple calculations
+- Provides an option to continue or exit
+
+### 🛡️ Input Validation
+
+- Handles invalid menu choices
+- Prevents division by zero
+- Displays appropriate error messages
+
+### 🧩 Functions
+
+Separate functions are used for:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| C | Core programming language |
+| Switch Case | Operation selection |
+| Functions | Modular program design |
+| Loops | Multiple calculations |
+| Conditional Statements | Input validation |
+| Standard I/O | User input and output |
+
+---
+
+# 🧠 Logic Used
+
+## Switch-Case
+
+The program displays a menu containing different arithmetic operations.
+
+The user selects an operation, and the **switch-case** statement executes the corresponding calculation.
+
+### Steps:
+
+1. Display the calculator menu
+2. Ask the user to select an operation
+3. Take two numbers as input
+4. Use switch-case to select the operation
+5. Perform the calculation
+6. Display the result
+7. Ask whether the user wants another calculation
+8. Exit when the user chooses to stop
+
+---
+
+# 📂 Project Structure
 
 ```text
 CodeAlpha_Calculator/
@@ -39,10 +102,9 @@ CodeAlpha_Calculator/
 │   └── calculator.c
 │
 ├── README.md
-├── .gitignore
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
-
 ---
 
 # ▶️ How to Run
@@ -50,7 +112,8 @@ CodeAlpha_Calculator/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/CodeAlpha_Calculator.git```
+git clone https://github.com/YOUR-USERNAME/CodeAlpha_Calculator.git
+```
 
 ### Compile
 
